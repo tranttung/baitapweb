@@ -1,0 +1,58 @@
+.menu{
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+.menu li{
+	padding: 8px 16px;
+}
+.menu li:hover{
+	background-color: #EEE;
+}
+.submenu1{
+	position: relative;
+}
+.submenu1:hover .submenudouong{
+	display: block;
+}
+.submenudouong{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	left: 0;	
+	display: none;
+	background-color: #EEE;
+}
+.submenu2{
+	position: relative;
+}
+.submenu2:hover .submenudoan{
+	display: block;
+	background-color: #DDD;
+	transition: all 0.5s;
+}
+.submenudoan{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	left: 0;	
+	display: none;
+	background-color: #EEE;
+}
+.submenu3{
+	position: relative;
+}
+.submenu3:hover .submenuhoaqua{
+	display: block;
+	background-color: #3d3052;
+	transition: all 0.5s;
+	color: blue;
+}
+.submenuhoaqua{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	left: 0;	
+	display: none;
+	background-color: #EEE;
+}

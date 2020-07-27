@@ -1,0 +1,38 @@
+body{
+	font-family: Arial, sans-serif;
+
+}
+.tuan{
+	display: flex;
+	align-items: center;
+
+}
+.stt{
+	font-size: 18px;
+	padding: 0px 8px;
+
+}
+.tuan .noidung{
+	font-size: 14px;
+	flex-grow: 1;
+}
+.tuan .tenbaihat{
+	margin-bottom: 8px;
+}
+.tuan .tencasi{
+	font-size: 13px;
+	color: #999;
+}
+.tuan .luotxem{
+	font-size: 13px;
+	color:#999;
+
+}
+.album{
+	width: 128px;
+	height: 128px;
+	background-color: #DDD;
+	background-image:url( https://via.placeholder.com/150);
+
+
+}

@@ -1,0 +1,23 @@
+p{
+	font-size:38px;
+
+	text-indent: 5px;
+}
+.best-shared{
+	color: white;
+	padding:1px 1px 1px 1px;
+	margin: 1px 1px 1px 1px;
+	border: 1px solid #0c0c0c;
+	
+}
+.TRAN{
+	border: 1px solid #0c0c0c;
+	background: linear-gradient(90deg, rgba(47,47,50,0.8743872549019608) 0%, rgba(9,75,121,1) 46%, rgba(0,255,132,1) 96%);
+}
+.lead-text{
+	border: 1px solid #0c0c0c;
+	background-image: url(./patten.jpg);
+	background-size: 20%;
+	height: 100px;
+
+}
