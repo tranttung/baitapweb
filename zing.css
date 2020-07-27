@@ -31,8 +31,22 @@ body{
 .album{
 	width: 128px;
 	height: 128px;
-	background-color: #DDD;
-	background-image:url( https://via.placeholder.com/150);
+	background-color: #999;
+	background-image:url("https://loremflickr.com/320/240/dog");
+	background-size: cover;
+	font-size: 40px;
+}
 
 
+.album .overlay{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+
+}
+.album:hover .overlay{
+	opacity: 1;
 }
